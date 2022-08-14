@@ -1,0 +1,52 @@
+.wrapper {
+  margin: 50px 0;
+}
+
+.title {
+  input {
+    background: slategrey;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 10px 0;
+    border: black;
+  }
+
+  div {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.image {
+  width: 35%;
+  border-radius: 10px;
+}
+
+.editor {
+  margin: 30px -30px;
+
+  :global {
+    .cm-s-easymde {
+      border: 0;
+      font-size: 22px;
+    }
+    .editor-toolbar {
+      border: 0;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  margin: 30px 0;
+
+  button {
+    margin-right: 15px;
+  }
+}
+
+.imagebtn {
+  margin: 15px 0;
+}
